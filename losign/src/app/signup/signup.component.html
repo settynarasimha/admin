@@ -1,0 +1,21 @@
+<div class="registration form">
+  <header>Signup</header>
+  <form (ngSubmit)="signControl()">
+   
+    
+    <input type="text" [(ngModel)]="sign.adminuser" name="AdminUser" placeholder="Enter your AdminUser">
+    
+    <input type="MobileNumber" [(ngModel)]="sign.mobilenumber" name="MobileNumber" placeholder="Enter your MobileNumber">
+    <input type="password" [(ngModel)]="sign.password" name="password" placeholder="Enter your password">
+    <input type="password" [(ngModel)]="sign.confirmPassword" name="password" placeholder="Enter your ConfirmPassword">
+    <input type="text" [(ngModel)]="sign.email" name="password" placeholder="Enter your Email">
+    
+    
+    <button type="submit" class="btn-btn-primary">Signin</button>
+  </form>
+  <div class="signup">
+    <span class="signup">Already have an account?
+     <button type="Submit"><a href=login>Login</a></button>
+    </span>
+  </div>
+</div>

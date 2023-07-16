@@ -1,0 +1,20 @@
+.background{
+  background-color: blue;
+}
+table{
+    width: 1500px;
+    box-shadow: -1px 25px,25px,-6px rgba(0,0,0,0.5);
+    background-color: white;
+}
+table, td{
+    padding:20px;
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+    text-align: center;
+    width:1800px;
+}
+td{
+    font-size:25px;
+    color:black;
+    background-color:violet;
+}

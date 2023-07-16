@@ -1,0 +1,18 @@
+<div class="container">
+  <input type="checkbox" id="check">
+  <div class="login form">
+    <header>Login</header>
+    <form (ngSubmit)="logControl()">
+      <label>Email</label>
+      <input type="Email" [(ngModel)]="logo.userId" name="Email" placeholder="Enter your Email">
+      <label>Password</label>
+      <input type="password" [(ngModel)]="logo.password" name="password" placeholder="Enter your password">
+      <a href="#">Forgot password?</a>
+     <button type="submit" class="btn-btn-primary"><a href="documents">Login</a></button>
+     </form>
+    <div class="signup">
+      <span class="signup">Don't have an account?
+       <label for="check"><a href = signup>Signup</a></label>
+      </span>
+    </div>
+</div>
